@@ -6,7 +6,7 @@ export default {
   input: './npm/module.js',
   output: {
     strict: false,
-    file: 'janus.js',
+    file: './npm/janus.js',
     format: 'es'
   },
   plugins: [
