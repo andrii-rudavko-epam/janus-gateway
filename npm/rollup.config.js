@@ -6,8 +6,8 @@ export default {
   input: './npm/module.js',
   output: {
     strict: false,
-		file: 'janus.js',
-		format: 'es'
+    file: 'janus.js',
+    format: 'es'
   },
   plugins: [
     replace({
