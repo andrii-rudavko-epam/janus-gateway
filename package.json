@@ -4,9 +4,9 @@
   "description": "A javascript library for interacting with the C based Janus WebRTC Server",
   "main": "npm/janus.js",
   "types": "npm/janus.d.ts",
-	"scripts":{
-		"postinstall": "npm run rollup -c ./npm/rollup.config.js"
-	},
+  "scripts":{
+    "postinstall": "rollup -c ./npm/rollup.config.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/meetecho/janus-gateway.git"
@@ -20,8 +20,8 @@
   "dependencies": {
     "webrtc-adapter": "7.4.0"
   },
-	"devDependencies": {
-		"rollup": "^0.50.0",
-		"rollup-plugin-replace": "^2.0.0"
-	}
+  "devDependencies": {
+    "rollup": "^0.50.0",
+    "rollup-plugin-replace": "^2.0.0"
+  }
 }
