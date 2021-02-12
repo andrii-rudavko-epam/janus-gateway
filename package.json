@@ -5,7 +5,7 @@
   "main": "npm/janus.js",
   "types": "npm/janus.d.ts",
   "scripts":{
-    "postinstall": "rollup -c ./npm/rollup.config.js"
+    "postinstall": "npx rollup -c ./npm/rollup.config.js"
   },
   "repository": {
     "type": "git",
